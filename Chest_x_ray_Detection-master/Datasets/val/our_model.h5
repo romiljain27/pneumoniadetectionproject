@@ -1,0 +1,7 @@
+fitted_model = final_model.fit_generator( #Fitting the model. 
+training_set, 
+validation_data=test_set, 
+epochs=5, 
+steps_per_epoch=len(training_set), 
+validation_steps=len(test_set) 
+)
